@@ -15,4 +15,4 @@ gem "tzinfo-data", platforms: [:mswin, :mingw, :jruby]
 
 gem "haml"
 
-gem "middleman-deploy", '~> 1.0'
+gem "middleman-deploy"
