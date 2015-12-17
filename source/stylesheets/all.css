@@ -12,6 +12,7 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
+
 html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
@@ -240,6 +241,7 @@ th {
   h3 {
     orphans: 3;
     widows: 3;
+    text-align: center;
   }
   h2,
   h3 {
@@ -1192,6 +1194,7 @@ h6,
   font-weight: 300;
   line-height: 1.1;
   color: inherit;
+  text-align: center;
 }
 h1 small,
 h2 small,
@@ -1509,7 +1512,7 @@ blockquote.pull-right {
   padding-left: 0;
   border-right: 5px solid #e6e6e6;
   border-left: 0;
-  text-align: right;
+  text-align: center;
 }
 .blockquote-reverse footer:before,
 blockquote.pull-right footer:before,
@@ -1589,8 +1592,9 @@ pre code {
 .container {
   margin-right: auto;
   margin-left: auto;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding-left: 100px;
+  padding-right: 100px;
+  text-align: center;
 }
 @media (min-width: 768px) {
   .container {
@@ -2260,7 +2264,7 @@ caption {
   padding-top: 8px;
   padding-bottom: 8px;
   color: #999999;
-  text-align: left;
+  text-align: center;
 }
 th {
   text-align: left;
@@ -4963,15 +4967,17 @@ a.badge:focus {
   margin-left: 3px;
 }
 .jumbotron {
-  padding-top: 30px;
-  padding-bottom: 30px;
-  margin-bottom: 30px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  margin-bottom: 100px;
   color: inherit;
-  background-color: #e6e6e6;
+  background-color: #4d004b;
+  text-align: center;
+
 }
 .jumbotron h1,
 .jumbotron .h1 {
-  color: inherit;
+  color: white
 }
 .jumbotron p {
   margin-bottom: 15px;
@@ -4979,26 +4985,26 @@ a.badge:focus {
   font-weight: 200;
 }
 .jumbotron > hr {
-  border-top-color: #cccccc;
+  border-top-color: #4d004b;
 }
 .container .jumbotron,
 .container-fluid .jumbotron {
   border-radius: 0;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding-left: 0px;
+  padding-right: 0px;
 }
 .jumbotron .container {
   max-width: 100%;
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1060px) {
   .jumbotron {
-    padding-top: 48px;
-    padding-bottom: 48px;
+    padding-top: 350px;
+    padding-bottom: 0px;
   }
   .container .jumbotron,
   .container-fluid .jumbotron {
-    padding-left: 60px;
-    padding-right: 60px;
+    padding-left: 0px;
+    padding-right: 0px;
   }
   .jumbotron h1,
   .jumbotron .h1 {
